@@ -1,0 +1,22 @@
+{
+  "name": "use-detect-scroll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leewind99/use-detect-scroll.git"
+  },
+  "keywords": [
+    "LWD"
+  ],
+  "author": "Lee Wind Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leewind99/use-detect-scroll/issues"
+  },
+  "homepage": "https://github.com/leewind99/use-detect-scroll#readme"
+}
