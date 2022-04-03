@@ -15,7 +15,7 @@ import * as React from "react";
 import { useDetectScroll } from "use-detect-scroll";
 
 function App() {
-   console.log('direction',useScrollDirection());
+   console.log('direction',useDetectScroll());
     return (
     <div className="App" style={{ height: '3000px', width: '5000px'}}>
     </div>
@@ -28,12 +28,12 @@ export default App;
 
 ## Options
 
-- `useScrollDirection()` handle and show all detect scroll.
-- `useScrollDirection(true,)` detect scroll change based on axis X.
-- `useScrollDirection(,true)` detect scroll change based on axis Y.
+- `useDetectScroll()` handle and show all detect scroll.
+- `useDetectScroll(true,)` detect scroll change based on axis X.
+- `useDetectScroll(,true)` detect scroll change based on axis Y.
 
 ## Developing
 
-- `useScrollDirection.isPageTop()` whether at the page top or not.
-- `useScrollDirection.isPageBottom()` whether at the page bottom or not.
-- `useScrollDirection.getPxToTop()` will return scrollTop amount in pixels.
+- `useDetectScroll.isPageTop()` whether at the page top or not.
+- `useDetectScroll.isPageBottom()` whether at the page bottom or not.
+- `useDetectScroll.getPxToTop()` will return scrollTop amount in pixels.

@@ -7,7 +7,7 @@ module.exports = {
     console.log("Heloo");
   },
 
-  useDirectScroll: () => {
+  useDetectScroll: () => {
     const [detectScroll, setDetectScroll] = React.useState("up");
 
     const blocking = React.useRef(false);
